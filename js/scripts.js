@@ -1,4 +1,3 @@
-
 (function($) {
   "use strict"; // Start of use strict
 
@@ -95,8 +94,6 @@
     .database()
     .ref(mailLocation)
     .set(mailData)
-    // .then(() => {
-    // })
     .catch((error) => {
       console.error('登録処理に失敗:', error);
     });
